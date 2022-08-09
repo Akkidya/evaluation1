@@ -1,0 +1,58 @@
+## a. console.log() ##
+  The console.log() method outputs a message to webconsole.
+  ```javascript
+  console.log(obj1)
+  ```
+  ## b.console.dir()
+   The method console.dir() displays an interactive list of propertiesof the specified javascript object.
+   ```javascripr
+   console.dir(document.location)
+   ```
+   ## c.console.count() ##
+   the count() method logs the number of times.
+   ```javascript
+    count()
+    count(label)
+```
+## d.console.table() ##
+ the console.table() method displays a tabular data in table.
+ ```javascript
+  console.table(["apple","Orange","graphes"])
+  ```
+  ## e.console.time() ##
+  the methods starts a timer you can use to track how long an operation takes
+```javascript
+time(label)
+```
+## timeEnd() ##
+ it stops a timer that was previously started by calling
+ ```javascript
+ timeEnd(label)
+ ```
+## timeLog()  ##
+ it logs the current value of a timer that was previously started by calling.
+ ```javascript
+ timeLog(label)
+ ```
+## f.console.trace() ##
+this method outputs a stack trace to the web console.
+```javascript
+trace()
+trace(obj1...objn)
+```
+## g.console.group() ##
+ it creates a new inline group in web console
+ ```javascript
+ group()
+ group(label)
+ ```
+ ## console.groupEnd() ##
+ this method exits the current inline groupin the webconsole.
+ ```javascript
+ groupEnd()
+ ```
+ ## h.console.assert() ##
+ it writes a error message to the console if the assertion is false, if the assertion is true,nothing happens
+ ```javascript
+ assert(assertion,obj1)
+ ```
